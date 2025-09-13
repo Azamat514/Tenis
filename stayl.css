@@ -1,0 +1,229 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #b5b5b5;
+  color: #333;
+}
+
+.container {
+  width: 1240px;
+  margin: auto;
+  background-image:url(Rectangle\ 26.png)
+}
+
+.navbar {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  width: 120px;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.menu-list a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  color: #858181;
+  transition: 0.3s;
+}
+
+.menu-list a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 14px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  color: #fff;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background: #786ec9;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #473e84;
+}
+
+.services {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.services-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.service-card {
+  padding: 20px;
+  border: 1px solid #F7ECE1;
+  text-align: center;
+  background: #fff;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+}
+
+.service-card h3 {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.gym {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.gym-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.gym-card {
+  background: #F7ECE1;
+  padding: 25px;
+  width: 300px;
+}
+
+.gym-card img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+.coaches {
+  padding: 100px 0;
+}
+
+.coach-grid {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.coach-card {
+  text-align: center;
+  border: 1px solid #F7ECE1;
+  padding: 20px;
+  width: 200px;
+}
+
+.coach-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.pricing {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.pricing-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-card {
+  background: #786ec9;
+  color: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 0 20px rgba(129, 121, 200, 0.6);
+}
+
+.site-footer {
+  background: #F7ECE1;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.footer-menu a {
+  color: #333;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-menu :hover {
+  text-decoration: underline;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+}
